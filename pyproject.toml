@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mlops-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Jesus Ramseths"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.1"
+openpyxl = "^3.1.2"
+ipykernel = "^6.29.3"
+plotly-express = "^0.4.1"
+scikit-learn = "^1.4.1.post1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
