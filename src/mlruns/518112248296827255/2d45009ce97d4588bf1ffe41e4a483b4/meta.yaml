@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Documents/mna/mlops_challenge/src/mlruns/518112248296827255/2d45009ce97d4588bf1ffe41e4a483b4/artifacts
+end_time: 1714860074852
+entry_point_name: ''
+experiment_id: '518112248296827255'
+lifecycle_stage: active
+run_id: 2d45009ce97d4588bf1ffe41e4a483b4
+run_name: valuable-snake-992
+run_uuid: 2d45009ce97d4588bf1ffe41e4a483b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714860074181
+status: 4
+tags: []
+user_id: HP

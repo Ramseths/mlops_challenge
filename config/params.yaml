@@ -9,10 +9,11 @@ data:
 
 model:
   alpha: 1
-  l1_ratio: 0.1
+  l1_ratio: 0.3
   max_iter: 1000
   selection: random
   path: "../models/"
+  experiment: residential_building
 
 evaluation:
   split_strategy: train_test_split

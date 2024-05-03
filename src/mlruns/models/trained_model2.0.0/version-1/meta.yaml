@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1714860163926
+current_stage: None
+description: null
+last_updated_timestamp: 1714860163926
+name: trained_model2.0.0
+run_id: 97e7f0941c9641f29453172545f1a47f
+run_link: null
+source: file:///C:/Users/HP/Documents/mna/mlops_challenge/src/mlruns/518112248296827255/97e7f0941c9641f29453172545f1a47f/artifacts/trained_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/HP/Documents/mna/mlops_challenge/src/mlruns/518112248296827255/97e7f0941c9641f29453172545f1a47f/artifacts/trained_model
+user_id: null
+version: 1
