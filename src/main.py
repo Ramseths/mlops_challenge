@@ -7,8 +7,6 @@ import mlflow
 
 if __name__ == '__main__':
     
-    
-
     # Load config
     with open("../config/params.yaml", "r") as f:
         params = yaml.safe_load(f)
