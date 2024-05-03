@@ -2,6 +2,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import PowerTransformer
 from sklearn.linear_model import  ElasticNet
+from joblib import dump
 
 def model_config(alpha, l1_ratio, max_iter, random_state):
     # ElasticNet Model
@@ -35,3 +36,22 @@ def train_pipeline(X_train, y_train, scaler, features, model):
     model_pipeline.fit(X_train, y_train)
 
     return model_pipeline
+
+
+def model_save(model, path, version):
+    """
+    This function helps to save model.
+
+    Parameters
+    ----------
+    model: Scikitlearn model or pipeline.
+    path: Path to save model.
+    version: Model version.
+    """
+
+    try:
+        # Save model with dump
+        dump(model, path + f'trained_model-{version}.joblib')
+        print("Successfully Model Saved")
+    except Exception as e:
+        print(f"Error Model Save: {e}")

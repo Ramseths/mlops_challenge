@@ -1,6 +1,6 @@
 import yaml
 from preprocessing import load_data, preprocessing_data
-from model import model_config, train_pipeline
+from model import model_config, train_pipeline, model_save
 from evaluation import cross_validation, get_metrics
 from sklearn.preprocessing import StandardScaler
 
@@ -47,3 +47,5 @@ if __name__ == '__main__':
     print(f'MAE: {mae}')
     print(f'R2: {r2}')
 
+    # Save model
+    model_save(model_pipeline, path=params['model']['path'], version="1.0.0")
