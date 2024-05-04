@@ -13,6 +13,10 @@ class InputData(BaseModel):
 
 app = FastAPI()
 
+@app.get('/')
+def home():
+    return {"running": "OK"}
+
 @app.post("/predict")
 def predict(data: InputData):
     try:
